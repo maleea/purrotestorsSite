@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*, html {
+    margin: 0;
+    padding: 0; 
+    height: 100%; 
+}
+
+header {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+    font-size: 67px;
+    color: bisque;
+    background-color: rgb(207, 195, 219);
+    height: 100px;
+    vertical-align: middle;
+    position: relative;
+    z-index: 10;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    align-items: flex-start;
+}
+
+nav {
+    flex: 0 1 20%;
+    padding-left: 1em;
+    padding-top: 10em;
+    background-color: rgb(187, 202, 187);
+    height: 100%;
+}
+ 
+main {
+    flex: 0 1 60%;
+    background-color: rgb(254, 139, 116);
+    height: 100%;
+}
+
+aside {
+    flex: 0 1 20%;
+    padding-left: 1em;
+    padding-top: 10em;
+    background-color: rgb(187, 202, 187);
+    height: 100%;
+}
+
+#logo {
+    height: 300px;
+}
+
+#mission {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: medium;
+    text-align: center;
+    color: white;
+}
+
+nav > p {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: medium;
+}
+
+aside > p {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: medium;
+}
+
+
+footer {
+    background-color: rgb(197, 187, 202);
+}
+
+a:link, a:visited {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+a:hover {
+    color: bisque;
+}
